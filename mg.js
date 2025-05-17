@@ -12742,31 +12742,61 @@ function formatTimeAMPM(dateTime) {
     });
   
   
-  
-       function updateMatchEnd() {
-            var matchStartInput = document.getElementById("matchStart");
-            var matchEndInput = document.getElementById("matchEnd");
+ 
+    // Convert a date to Nepal Time by adding 345 minutes
+    function toNepalTime(date) {
+        let local = new Date(date.getTime());
+        local.setMinutes(local.getMinutes() + 345);
+        return local;
+    }
 
-            if (matchStartInput.value) {
-                var matchStartDateTime = new Date(matchStartInput.value);
-                matchStartDateTime.setUTCHours(matchStartDateTime.getUTCHours() + 3);
-                matchEndInput.value = matchStartDateTime.toISOString().slice(0, 16);
-            }
+    // Format a date for <input type="datetime-local">
+    function formatForInput(date) {
+        return date.toISOString().slice(0, 16);
+    }
+
+    // Format a date to Nepal ISO string like: Date('YYYY-MM-DDTHH:mm:ss+05:45')
+    function formatNepalISO(date) {
+        const nepali = toNepalTime(date);
+
+        const pad = n => String(n).padStart(2, '0');
+        const year = nepali.getFullYear();
+        const month = pad(nepali.getMonth() + 1);
+        const day = pad(nepali.getDate());
+        const hours = pad(nepali.getHours());
+        const minutes = pad(nepali.getMinutes());
+        const seconds = pad(nepali.getSeconds());
+
+        return `Date('${year}-${month}-${day}T${hours}:${minutes}:${seconds}+05:45')`;
+    }
+
+    // Automatically update match end (3 hours after start)
+    function updateMatchEnd() {
+        const matchStartInput = document.getElementById("matchStart");
+        const matchEndInput = document.getElementById("matchEnd");
+        const isoOutput = document.getElementById("isoOutput");
+
+        if (matchStartInput.value) {
+            let startTime = new Date(matchStartInput.value);
+            startTime.setMinutes(startTime.getMinutes() + 180); // Add 3 hours
+
+            matchEndInput.value = formatForInput(startTime);
+            isoOutput.textContent = formatNepalISO(startTime);
         }
+    }
+
+    // Initialize on page load
+    window.addEventListener('DOMContentLoaded', function () {
+        const matchStartInput = document.getElementById("matchStart");
+        const matchEndInput = document.getElementById("matchEnd");
+        const isoOutput = document.getElementById("isoOutput");
+
+        const nowNepal = toNepalTime(new Date());
+
+        matchStartInput.value = formatForInput(nowNepal);
+        matchEndInput.value = formatForInput(nowNepal);
+        isoOutput.textContent = formatNepalISO(nowNepal);
   
-// Get the datetime-local input elements by their IDs
-const matchStartInput = document.getElementById('matchStart');
-const matchEndInput = document.getElementById('matchEnd');
 
-// Get the current date and time
-const currentDateTime = new Date();
-
-  
-// Format the date and time in ISO 8601 format (YYYY-MM-DDTHH:MM)
-const isoFormattedDateTime = currentDateTime.toISOString().slice(0, 16);
-
-// Set the values of the datetime-local input elements
-matchStartInput.value = isoFormattedDateTime;
-matchEndInput.value = isoFormattedDateTime;
 
   
