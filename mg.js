@@ -212,11 +212,14 @@
      
      
   {
-    "name": "Deportivo ",
+    "name": "Alaves",
     "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9866.png"
   },  
      
-     
+     {
+    "name": "Leganes",
+    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/7854.png"
+  },  
  
   {
     "name": "Osasuna",
@@ -520,8 +523,8 @@
        
        
   {
-    "name": "Nepal_",
-    "logo": "https://aimages.willow.tv/teamLogos/nepal.png"
+    "name": "Nepal",
+    "logo": "https://live.mrgamingstream.net/logo/can.png"
   },  
      
 {
@@ -1299,7 +1302,7 @@
     "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/578653.png"
   },  
      
-     
+     //IPL TEAM FULL LIST
  
   {
     "name": "CSK",
@@ -1363,8 +1366,8 @@
 
 
            {
-    "name": "Nepal",
-    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/95799.png"
+    "name": "Nepal.",
+    "logo": "https://live.mrgamingstream.net/logo/flag.png"
   },  
 
        
@@ -1528,6 +1531,58 @@
      
  
   {
+    "name": "Auxerre",
+    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8583.png"
+  },  
+     
+     
+  {
+    "name": "Biratnagar King",
+    "logo": "https://live.mrgamingstream.net/logo/biratnagar.png"
+  },
+       {
+    "name": "Sudurpaschim Royal",
+    "logo": "https://live.mrgamingstream.net/logo/sudurpaschim.png"
+  },  
+     
+     
+  {
+    "name": "Pokhara Avenger",
+    "logo": "https://live.mrgamingstream.net/logo/pokhara.png"
+  },  
+     
+     
+ 
+  {
+    "name": "Lumbini Lions",
+    "logo": "https://live.mrgamingstream.net/logo/lumbini.png"
+  },  
+     
+     
+  {
+    "name": "Kathmandu Gurkhas",
+    "logo": "https://live.mrgamingstream.net/logo/ktm.png"
+  },    
+  
+       {
+    "name": "Karnali Yaks",
+    "logo": "https://live.mrgamingstream.net/logo/karnali.png"
+  },  
+     
+     
+  {
+    "name": "Chitwan Rhinos",
+    "logo": "https://live.mrgamingstream.net/logo/chitwan.png"
+  },  
+     
+     
+ 
+  {
+    "name": "Janakpur Bolts",
+    "logo": "https://live.mrgamingstream.net/logo/janakpur.png"
+  },  
+     
+   {
     "name": "MS",
     "logo": "https://aimages.willow.tv/teamLogos/multansultans.png"
   },  
@@ -1559,34 +1614,14 @@
   {
     "name": "QG",
     "logo": "https://aimages.willow.tv/teamLogos/quettagladiators.png"
-  },    
-  
-       {
-    "name": "____",
-    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/___.png"
   },  
-     
-     
   {
-    "name": "____",
-    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/___.png"
-  },  
-     
-     
- 
-  {
-    "name": "____",
-    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/___.png"
-  },  
-     
-     
-  {
-    "name": "____",
-    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/___.png"
+    "name": "Earthquake",
+    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6603.png"
   },
        {
-    "name": "____",
-    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/___.png"
+    "name": "Espanyol",
+    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8558.png"
   },  
      
      
@@ -5889,15 +5924,15 @@
      
      
   {
-    "name": "____",
-    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/___.png"
+    "name": "Venezia",
+    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/7881.png"
   },  
      
      
  
   {
-    "name": "____",
-    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/___.png"
+    "name": "Doncaster",
+    "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/9903.png"
   },  
      
      
@@ -12470,9 +12505,9 @@
    ];
       
       
-      var leagueNames = [" Ligue 1", " Premier League", " Bundesliga", " Serie A", " La Liga", " UEFA Champions League", " UEFA Europa League", " African Nations Championship", " AFC Champions League", " Botola Pro", " Serie A Women", " Pro League", " CAF Confederation Cup", " Botola 2"];
-        var commentatorNames = [];
-        var channelNames = [];
+      var leagueNames = [" T20I", " ODI", " Test Series", " Nepal Premier League"," T20 world cup", " ODI world cup", " Women's Asia Cup", " women's World Cup ", " Asia cup", " Champions Trophy", " IPL", " Ligue 1", " Premier League"," ICC CWC League 2","NPL " , " Bundesliga", " Serie A", " La Liga", " UEFA Champions League", " UEFA Europa League", " African Nations Championship", " AFC Champions League", " Botola Pro", " Serie A Women", " Pro League", " CAF Confederation Cup", " Botola 2"];
+        var commentatorNames = [" Andrew Leonard"];
+        var channelNames = [" YoNoTV"];
 
         var homeTeamSelect = document.getElementById('homeTeam');
         var awayTeamSelect = document.getElementById('awayTeam');
@@ -12603,7 +12638,7 @@
 }
 
 const formattedDate = formatISODateTime("2023-08-19");
-console.log(formattedDate); // Output: 2023-08-19T00:00:00+03:00
+console.log(formattedDate); // Output: 2023-08-19T00:00:00+05:45
 
       
       
@@ -12720,10 +12755,38 @@ function formatTimeAMPM(dateTime) {
        const previewHtml = 
 
            <!-- href="${postLinkValue}" -->
-             `<!-- ${homeTeamSelectValue} vs ${awayTeamSelectValue} --> 
-<div class="match-event" id="jm${randomNumbers}s" data-result="vs"> <a href="${postLinkValue}" title="${homeTeamSelectValue} vs ${awayTeamSelectValue}" > <div id="overlay-match"> <div id="watch-match"></div> </div> </a> <div class="first-team"> <div class="team-logo"> <img loading="lazy" alt="${homeTeamSelectValue}" height="70" src="${homeTeam.logo}" title="${homeTeamSelectValue}" width="70"> </div> <div class="team-name">${homeTeamSelectValue}</div> </div> <div class="match-time" > <div class="match-timing"> <div id="match-hour">${formatTimeAMPM(matchStartValue)}</div> <div id="result-now">${matchResultValue}</div><span id="mj${randomNumbers}s" class="match-date" data-start="${formattedMatchStart}" data-gameends="${formattedMatchEnd}"></span> </div> </div> <div class="left-team"> <div class="team-logo"> <img loading="lazy" alt="${awayTeamSelectValue}" height="70" src="${awayTeam.logo}" title="${awayTeamSelectValue}" width="70"> </div> <div class="team-name">${awayTeamSelectValue}</div> </div> </div>`;
-
-
+      <!-- ${homeTeamSelectValue} vs ${awayTeamSelectValue} -->
+        <div class="match-event match-${randomNumbers}" data-result="vs">
+            <a title="${homeTeamSelectValue} vs ${awayTeamSelectValue}" id="match-${randomNumbers}" href="${postLinkValue}">
+                <div id="overlay-match">
+                    <div id="watch-match"></div>
+                </div>
+            </a>
+            <div class="first-team home_team">
+                <div class="team-logo"> <img loading="lazy" alt="${homeTeamSelectValue}" height="70" src="${homeTeam.logo}" title="${homeTeamSelectValue}" width="70"> </div>
+                <div class="team-name">${homeTeamSelectValue}</div>
+            </div>
+            <div class="match-time">
+                <div class="match-timing matchc-${randomNumbers}">
+                    <div id="match-hour">${formatTimeAMPM(matchStartValue)}</div>
+                    <div id="result-now">${matchResultValue}</div>
+                    <span class="match-date" data-start="${formattedMatchStart}" data-gameends="${formattedMatchEnd}" ></span>
+                </div>
+            </div>
+            <div class="left-team away_team">
+                <div class="team-logo"> <img loading="lazy" alt="${awayTeamSelectValue}" height="70" src="${awayTeam.logo}" title="${awayTeamSelectValue}" width="70"> </div>
+                <div class="team-name">${awayTeamSelectValue}</div>
+            </div>
+      
+            <div class="match-info">
+                <ul>
+                    <li class="leaguename"><span>${leagueNameSelectValue}</span></li>
+                    <li class="channelname"><span>${channelNameSelectValue}</span></li>
+                    <li class="speakername"><span>${commentatorNameSelectValue}</span></li>
+                </ul>
+            </div> 
+        </div>
+           
         $('#code').val(previewHtml);
     }
       
@@ -12742,61 +12805,31 @@ function formatTimeAMPM(dateTime) {
     });
   
   
- 
-    // Convert a date to Nepal Time by adding 345 minutes
-    function toNepalTime(date) {
-        let local = new Date(date.getTime());
-        local.setMinutes(local.getMinutes() + 345);
-        return local;
-    }
-
-    // Format a date for <input type="datetime-local">
-    function formatForInput(date) {
-        return date.toISOString().slice(0, 16);
-    }
-
-    // Format a date to Nepal ISO string like: Date('YYYY-MM-DDTHH:mm:ss+05:45')
-    function formatNepalISO(date) {
-        const nepali = toNepalTime(date);
-
-        const pad = n => String(n).padStart(2, '0');
-        const year = nepali.getFullYear();
-        const month = pad(nepali.getMonth() + 1);
-        const day = pad(nepali.getDate());
-        const hours = pad(nepali.getHours());
-        const minutes = pad(nepali.getMinutes());
-        const seconds = pad(nepali.getSeconds());
-
-        return `Date('${year}-${month}-${day}T${hours}:${minutes}:${seconds}+05:45')`;
-    }
-
-    // Automatically update match end (3 hours after start)
-    function updateMatchEnd() {
-        const matchStartInput = document.getElementById("matchStart");
-        const matchEndInput = document.getElementById("matchEnd");
-        const isoOutput = document.getElementById("isoOutput");
-
-        if (matchStartInput.value) {
-            let startTime = new Date(matchStartInput.value);
-            startTime.setMinutes(startTime.getMinutes() + 180); // Add 3 hours
-
-            matchEndInput.value = formatForInput(startTime);
-            isoOutput.textContent = formatNepalISO(startTime);
-        }
-    }
-
-    // Initialize on page load
-    window.addEventListener('DOMContentLoaded', function () {
-        const matchStartInput = document.getElementById("matchStart");
-        const matchEndInput = document.getElementById("matchEnd");
-        const isoOutput = document.getElementById("isoOutput");
-
-        const nowNepal = toNepalTime(new Date());
-
-        matchStartInput.value = formatForInput(nowNepal);
-        matchEndInput.value = formatForInput(nowNepal);
-        isoOutput.textContent = formatNepalISO(nowNepal);
   
+       function updateMatchEnd() {
+            var matchStartInput = document.getElementById("matchStart");
+            var matchEndInput = document.getElementById("matchEnd");
 
+            if (matchStartInput.value) {
+                var matchStartDateTime = new Date(matchStartInput.value);
+                matchStartDateTime.setUTCHours(matchStartDateTime.getUTCHours() + 3);
+                matchEndInput.value = matchStartDateTime.toISOString().slice(0, 16);
+            }
+        }
+  
+// Get the datetime-local input elements by their IDs
+const matchStartInput = document.getElementById('matchStart');
+const matchEndInput = document.getElementById('matchEnd');
+
+// Get the current date and time
+const currentDateTime = new Date();
+
+  
+// Format the date and time in ISO 8601 format (YYYY-MM-DDTHH:MM)
+const isoFormattedDateTime = currentDateTime.toISOString().slice(0, 16);
+
+// Set the values of the datetime-local input elements
+matchStartInput.value = isoFormattedDateTime;
+matchEndInput.value = isoFormattedDateTime;
 
   
