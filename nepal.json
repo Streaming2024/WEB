@@ -1,0 +1,46 @@
+{
+  "events": [
+
+
+    
+    {
+      "name": "Smooth 1 -Nepal vs GSCC(No Sound)",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://www.youtube.com/embed/0UeOxSwCxsQ"
+    },
+
+
+    
+    {
+      "name": "Smooth 2 -Nepal vs GSCC ",
+      "link": "https://live.mrgamingstream.net/VIP/ads.html"
+    },
+
+{
+      "name": "HD Link 1 -Nepal vs GSCC(With sound)",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://www.youtube.com/embed/cz5by_0gCEA"
+    },
+    
+    {
+      "name": "HD Link 2 -Nepal vs GSCC",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/link.html?id=nepal"
+    },
+ 
+ {
+      "name": "Full HD Link 1 -Nepal vs GSCC ",
+      "link": "https://live.mrgamingstream.net/VIP/ads.html"
+    },
+    
+ {
+      "name": "Full HD Link 2-Nepal vs GSCC ",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/link.html?id=nepal2"
+    
+    }
+
+
+  ],
+  "styles": {
+    "livee": "display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 5px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: red; color: white;",
+    "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
+    "liveeName": "flex: 2; text-align: center; color: white; font-weight: bold;"
+  }
+}
