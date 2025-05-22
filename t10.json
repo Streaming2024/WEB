@@ -1,0 +1,51 @@
+{
+  "events": [
+
+
+    
+    {
+      "name": "Smooth 1 - Nepal T10 Live",
+      "link": "https://live.mrgamingstream.net/Player/page?src=https://live.mrgamingstream.net/link.html?id=t10"
+    },
+
+
+    
+    {
+      "name": "Smooth 2 - Nepal T10 Live ",
+      "link": "https://live.mrgamingstream.net/VIP/ads.html"
+    },
+
+
+    
+    {
+      "name": "Full HD Link1 -Nepal T10 Live",
+      "link": "https://live.mrgamingstream.net/Player/page?src=https://live.mrgamingstream.net/link.html?id=t10"
+    },
+
+ {
+      "name": "Full HD Link2 - Nepal T10 Live",
+      "link": "https://live.mrgamingstream.net/VIP/ads.html"
+    },
+    
+    {
+      "name": "HD Link 1 - Nepal T10 Live",
+      "link": "https://live.mrgamingstream.net/Player/page?src=https://live.mrgamingstream.net/link.html?id=ut10"
+    },
+
+
+
+    {
+      "name": "Link 4 -Nepal T10 Live",
+      "link": "https://live.mrgamingstream.net/Player/page?src=https://live.mrgamingstream.net/link.html?id=t10"
+    
+    }
+
+
+
+  ],
+  "styles": {
+    "livee": "display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 5px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: red; color: white;",
+    "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
+    "liveeName": "flex: 2; text-align: center; color: white; font-weight: bold;"
+  }
+}
