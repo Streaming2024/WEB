@@ -1,0 +1,44 @@
+{
+  "events": [
+
+
+    
+    {
+      "name": "HD Link 1 - BARA Vs SIRAHA ",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://www.youtube.com/embed/2QTZUyjxe3Y"
+  
+    },
+    
+    {
+      "name": "HD link 2 - BARA Vs SIRAHA ",
+      "link": "https://live.mrgamingstream.net/VIP/ads.html"  },
+
+{
+      "name": "HD Link 3 - BARA Vs SIRAHA",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/Player/jwads.html?src=https://www.youtube.com/embed/2QTZUyjxe3Y"
+    },
+    
+    {
+      "name": "HD Link 1 -PARSA VS SARLAHI ",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://www.youtube.com/embed/0fEHnqs3lKA"
+    },
+ 
+ {
+      "name": "HD Link 2 - PARSA VS SARLAHI ",
+      "link": "https://live.mrgamingstream.net/VIP/ads.html"
+    },
+    
+ {
+      "name": "HD Link 3-PARSA VS SARLAHI ",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/Player/jwads.html?src=https://www.youtube.com/embed/0fEHnqs3lKA"
+    
+    }
+
+
+  ],
+  "styles": {
+    "livee": "display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 5px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: red; color: white;",
+    "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
+    "liveeName": "flex: 2; text-align: center; color: white; font-weight: bold;"
+  }
+}
