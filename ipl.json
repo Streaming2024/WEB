@@ -1,0 +1,78 @@
+{
+  "events": [
+ {
+      "name": "Best ENGLISH Link 1-CSK vs GT",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/link.html?id=ADFREE"
+   },
+     {
+      "name": "Best Hindi Link 1-CSK vs GT",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/link.html?id=hindi"
+   },
+   
+    {
+      "name": "Hindi Link 2- CSK vs GT",
+      "link": "https://live.mrgamingstream.net/VIP/ads.html"
+    },
+    
+    {
+      "name": "Hindi Link 3- CSK vs GT",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/link.html?id=hindi2"
+    },
+    
+   
+    {
+      "name": "Hindi Link 4- CSK vs GT ",
+      "link": "https://live.mrgamingstream.net/VIP/ads.html"
+    },
+    
+    {
+      "name": "Himdi Link 5 -CSK vs GT",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/link.html?id=hindi3"
+    },
+ {
+      "name": "Himdi Link 6 -CSK vs GT",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/link.html?id=hindi4"
+    },
+    
+    {
+      "name": "English Link 1 -CSK vs GT",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/link.html?id=willow"
+    },
+
+{
+      "name": "English Link 2 -CSK vs GT ",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/link.html?id=tsports"
+    },
+ {
+      "name": "English Link 3-CSK vs GT ",
+      "link": "https://live.mrgamingstream.net/VIP/ads.html"
+    },
+    
+ {
+      "name": "English Link 4 -CSK vs GT ",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/link.html?id=sky"
+    },
+
+   {
+      "name": "Full HD Link 5 -CSK vs GT ",
+      "link": "https://live.mrgamingstream.net/VIP/ads.html"
+    },
+ {
+      "name": "Full HD Link 2 -CSK vs GT",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/link.html?id=willow"
+    },
+    
+ {
+      "name": "Full HD Link 3-CSK vs GT",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/link.html?id=sky"
+    
+    }
+
+
+  ],
+  "styles": {
+    "livee": "display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 5px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: red; color: white;",
+    "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
+    "liveeName": "flex: 2; text-align: center; color: white; font-weight: bold;"
+  }
+}
