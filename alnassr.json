@@ -1,0 +1,60 @@
+{
+  "events": [
+
+
+    
+    {
+      "name": "Smooth 1 - Al Nassr vs Al Fateh",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/Player/plyrr?url=https://ddy6new.newkso.ru/ddy6/premium426/mono.m3u8"
+    },
+
+
+    
+    {
+      "name": "Smooth 2 - Al Nassr vs Al Fateh ",
+      "link": "https://live.mrgamingstream.net/VIP/ads.html"
+    },
+
+
+    
+    {
+      "name": "Link 1 - Al Nassr vs Al Fateh",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/Player/jwads.html?src=https://live.mrgamingstream.net/Player/plyrr?url=https://top1-cdnnew.newkso.ru/top1-cdn/TCg2MOW5wi/mono.m3u8"
+    },
+
+
+    
+    {
+      "name": "Link 2 - Al Nassr vs Al Fateh ",
+      "link": "https://live.mrgamingstream.net/VIP/ads.html"
+    },
+
+{
+      "name": "Link 3 - Al Nassr vs Al Fateh ",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/Player/jwads.html?src=https://live.mrgamingstream.net/Player/plyrr?url=https://live.inplyr.com/room/336303.m3u8"
+    },
+
+    {
+      "name": "Link 4 - Al Nassr vs Al Fateh ",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/Player/jwads.html?src=https://sportzonline.ps/channels/bra/br4.php"
+    },
+
+
+
+        {
+      "name": "Link 6 - Al Nassr vs Al Fateh ",
+      "link": "https://live.mrgamingstream.net/Player/page.html?src=https://live.mrgamingstream.net/Player/jwads.html?src=https://sportzonline.si/channels/bra/br4.php"
+    
+    }
+
+
+
+
+
+  ],
+  "styles": {
+    "livee": "display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: inherit; margin: 5px 0; padding: 5px; border: 2px solid #000; border-radius: 5px; cursor: pointer; transition: box-shadow 0.3s ease; background-color: red; color: white;",
+    "liveeHover": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);",
+    "liveeName": "flex: 2; text-align: center; color: white; font-weight: bold;"
+  }
+}
